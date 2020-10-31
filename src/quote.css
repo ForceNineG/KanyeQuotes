@@ -1,0 +1,75 @@
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.picture {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 10vh;
+    filter: opacity(100%);
+    outline: 5px solid rgb(24, 24, 24);
+}
+
+.prePicture {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 10vh;
+    filter: grayscale(50%);
+    outline: 5px solid rgb(24, 24, 24);
+
+}
+
+.quote {
+    position: absolute;
+    color: rgb(230, 222, 222);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: 475px;
+    height: 450px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 0;
+    font-style: italic;
+    text-shadow: 2px 2px #383838;
+
+}
+.quoteEnd {
+    position: absolute;
+    color: rgb(230, 222, 222);
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%, 20%);
+    width: 475px;
+    height: 450px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 0;
+    font-style: italic;
+    text-shadow: 2px 2px #383838;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 500px;
+    height: 50px;
+    margin: 20px;
+    z-index: 3;
+}

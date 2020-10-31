@@ -1,3 +1,12 @@
+#root {
+  background-image: url("https://i.imgur.com/crjLouKg.png");
+  background-position: left;
+  width: 100vw;
+  height: 100vh;
+}
+body, html {
+  overflow: hidden;
+}
 .App {
   text-align: center;
 }
